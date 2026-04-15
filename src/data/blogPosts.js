@@ -13,9 +13,7 @@ export const blogPosts = [
   <p>I originally documented part of this journey in a forum post:</p>
 
   <blockquote>
-    <p>
-      "Last year, I was having fun with Ran Online development and attempted to convert the game into C# to make it cross-platform - targeting both mobile and desktop environments."
-    </p>
+    <p>Last year, I was having fun with Ran Online development and attempted to convert the game into C# to make it cross-platform - targeting both mobile and desktop environments.</p>
   </blockquote>
 
   <p>The goal was simple: take a legacy MMORPG and modernize it.</p>
@@ -50,7 +48,7 @@ export const blogPosts = [
   <p>This required translating DirectX 9 behavior into a shader-based pipeline:</p>
 
   <pre><code>device->SetRenderState(D3DRS_ZWRITEENABLE, TRUE);
- device->SetTextureStageState(0, D3DTSS_COLOROP, D3DTOP_MODULATE);</code></pre>
+device->SetTextureStageState(0, D3DTSS_COLOROP, D3DTOP_MODULATE);</code></pre>
 
   <p>In MonoGame, these had to be recreated manually through shaders and custom abstractions.</p>
 
@@ -80,9 +78,7 @@ export const blogPosts = [
   <p>At some point, I had to step back and evaluate the project realistically.</p>
 
   <blockquote>
-    <p>
-      "While converting the code, I realized the original source was not well structured. Continuing the port would likely consume significant time for limited return."
-    </p>
+    <p>While converting the code, I realized the original source was not well structured. Continuing the port would likely consume significant time for limited return.</p>
   </blockquote>
 
   <p>I decided to pause the project - not because it failed, but because the cost of continuing outweighed the benefit at that stage.</p>
