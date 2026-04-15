@@ -5,9 +5,9 @@ import SkillsSection from "@/components/sections/SkillsSection.vue";
 </script>
 
 <template>
-   <div>
+   <div class="min-h-screen flex flex-col">
       <TheNavbar />
-      <main class="pt-16">
+      <main class="flex-1 pt-16">
          <SkillsSection />
       </main>
       <TheFooter />
