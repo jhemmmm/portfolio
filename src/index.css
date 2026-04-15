@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+html.dark {
+    color-scheme: dark;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #f59e0b;
+    border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #d97706;
+}
+
+body {
+    @apply antialiased font-sans;
+}
+
+@layer utilities {
+    .bg-gradient-radial {
+        background-image: radial-gradient(var(--tw-gradient-stops));
+    }
+}
+
+.page-enter-active {
+    transition:
+        opacity 0.18s ease,
+        transform 0.18s ease;
+}
+.page-leave-active {
+    transition: opacity 0.12s ease;
+}
+.page-enter-from {
+    opacity: 0;
+    transform: translateY(6px);
+}
+.page-leave-to {
+    opacity: 0;
+}
+
+.grid-fade-enter-active {
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+}
+.grid-fade-leave-active {
+    transition: opacity 0.15s ease;
+}
+.grid-fade-enter-from {
+    opacity: 0;
+    transform: translateY(8px);
+}
+.grid-fade-leave-to {
+    opacity: 0;
+}
+
+.badge-move,
+.badge-enter-active,
+.badge-leave-active {
+    transition: all 0.25s ease;
+}
+.badge-enter-from,
+.badge-leave-to {
+    opacity: 0;
+    transform: scale(0.85);
+}
+.badge-leave-active {
+    position: absolute;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+figure figcaption {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 6px;
+}
