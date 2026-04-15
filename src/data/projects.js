@@ -29,20 +29,6 @@ export const projects = [
    },
    {
       id: 3,
-      title: "BabyAnime",
-      description: "Anime streaming platform delivering fast, reliable playback using Google Drive–based media distribution.",
-      longDescription: "BabyAnime is a full-featured anime streaming platform that I built and maintained to serve high-traffic content audiences. The system is designed for performance, scalability, and efficient media delivery by leveraging Google Drive as a distributed playback source. This approach reduces server load while maintaining fast and stable streaming for users.\n\nThe backend is developed using CodeIgniter and PHP, with NGINX running on a Linux VPS for optimized request handling and reverse proxy performance. I implemented content management, video indexing, caching strategies, and stream handling to support large concurrent users while keeping infrastructure costs efficient.\n\nOver time, the platform evolved to handle real-world traffic scenarios, focusing on reliability, low latency playback, and scalable architecture. This project demonstrates my experience in building and operating high-traffic web platforms, managing servers, and designing systems that balance performance with cost efficiency.",
-      category: "Web System",
-      techTags: ["PHP", "CodeIgniter", "NGINX", "Linux", "VPS", "Google Drive API"],
-      screenshot: "babyanime.png",
-      screenshotAlt: "Server infrastructure diagram",
-      githubUrl: "https://github.com/jhemmmm/BabyAnime",
-      liveUrl: null,
-      year: "2017 – 2018",
-      featured: false,
-   },
-   {
-      id: 4,
       title: "WashWise",
       description: "Web-based booking and management system for JNJ Car Wash Service, streamlining appointments, operations, and sales tracking.",
       longDescription: "WashWise is a full-stack web system developed for JNJ Car Wash Service to modernize and streamline daily operations. The platform provides an intuitive booking system that allows customers to schedule appointments easily, while giving staff and management full control through a centralized dashboard.\n\nThe system includes modules for appointment management, services and pricing configuration, sales reporting, inventory tracking, user management, and notifications. Its structured interface enables staff and administrators to efficiently manage workflows, monitor business performance, and handle customer requests.\n\nBuilt using Vue.js for a responsive frontend and Laravel for a robust backend, WashWise follows a scalable and maintainable architecture. The system reduces manual processes, improves operational efficiency, and provides actionable insights through reporting and analytics.\n\nThis project highlights my ability to deliver complete business solutions-from frontend user experience to backend system design-focused on performance, usability, and real-world business needs.",
@@ -56,7 +42,7 @@ export const projects = [
       featured: false,
    },
    {
-      id: 5,
+      id: 4,
       title: "Mia",
       description: "Online reservation system for Annyeong Samgyupsal, developed to support a capstone project and enable real-time table booking.",
       longDescription: "Mia is a web-based online reservation system developed for Annyeong Samgyupsal, created to support my former classmates in their capstone project. The system was designed to simplify table booking and improve the overall customer experience through a clean and user-friendly interface.\n\nThe platform allows users to easily reserve tables, view availability, and submit inquiries, while providing administrators with tools to manage reservations, monitor customer activity, and handle bookings efficiently. Its straightforward design ensures smooth daily operations and minimizes manual booking errors.\n\nBuilt using Laravel and PHP, the system focuses on reliability, simplicity, and performance. It delivers real-time reservation handling without relying on complex frontend frameworks, making it lightweight and efficient for deployment.\n\nThis project demonstrates my ability to build practical, real-world systems that are not only technically sound but also actively used in academic and business contexts.",
@@ -70,7 +56,7 @@ export const projects = [
       featured: false,
    },
    {
-      id: 6,
+      id: 5,
       title: "AB Normal Medicine Tool",
       description: "Simple desktop-based medicine inventory system built for a school project using C# and SQLite.",
       longDescription: "AB Normal Medicine Tool is a desktop application developed as a school project to manage and monitor medicine inventory in a structured and efficient way. The system provides a centralized dashboard that displays key metrics such as total medicines, available stock, and unavailable items, giving users a quick overview of inventory status.\n\nIt includes a basic medicine management module with capabilities for adding, editing, deleting, and searching records. Each entry contains details such as name, description, manufacturer, expiry date, price, quantity, and availability status. The system also includes simple data visualization to help users understand inventory distribution.\n\nBuilt using C# with SQLite as the database, the application is lightweight, fast, and suitable for offline use. Its straightforward interface focuses on usability and demonstrates core concepts of desktop application development and local database integration.\n\nThis project reflects my foundational experience in building desktop applications, working with relational data, and designing functional user interfaces in a structured environment.",
